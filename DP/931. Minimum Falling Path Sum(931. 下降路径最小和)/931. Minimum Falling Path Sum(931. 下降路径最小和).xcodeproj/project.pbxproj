@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B23CB78723209B2100E193D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CB78623209B2100E193D7 /* AppDelegate.swift */; };
+		B23CB78923209B2100E193D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CB78823209B2100E193D7 /* ViewController.swift */; };
+		B23CB78C23209B2100E193D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23CB78A23209B2100E193D7 /* Main.storyboard */; };
+		B23CB78E23209B2300E193D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23CB78D23209B2300E193D7 /* Assets.xcassets */; };
+		B23CB79123209B2300E193D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23CB78F23209B2300E193D7 /* LaunchScreen.storyboard */; };
+		B23CB79C23209B2300E193D7 /* _31__Minimum_Falling_Path_Sum_931__________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CB79B23209B2300E193D7 /* _31__Minimum_Falling_Path_Sum_931__________Tests.swift */; };
+		B23CB7A723209B2300E193D7 /* _31__Minimum_Falling_Path_Sum_931__________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CB7A623209B2300E193D7 /* _31__Minimum_Falling_Path_Sum_931__________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B23CB79823209B2300E193D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23CB77B23209B2100E193D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B23CB78223209B2100E193D7;
+			remoteInfo = "931. Minimum Falling Path Sum(931. 下降路径最小和)";
+		};
+		B23CB7A323209B2300E193D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23CB77B23209B2100E193D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B23CB78223209B2100E193D7;
+			remoteInfo = "931. Minimum Falling Path Sum(931. 下降路径最小和)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B23CB78323209B2100E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "931. Minimum Falling Path Sum(931. 下降路径最小和).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23CB78623209B2100E193D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B23CB78823209B2100E193D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B23CB78B23209B2100E193D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B23CB78D23209B2300E193D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B23CB79023209B2300E193D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B23CB79223209B2300E193D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23CB79723209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "931. Minimum Falling Path Sum(931. 下降路径最小和)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23CB79B23209B2300E193D7 /* _31__Minimum_Falling_Path_Sum_931__________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_31__Minimum_Falling_Path_Sum_931__________Tests.swift"; sourceTree = "<group>"; };
+		B23CB79D23209B2300E193D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23CB7A223209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "931. Minimum Falling Path Sum(931. 下降路径最小和)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23CB7A623209B2300E193D7 /* _31__Minimum_Falling_Path_Sum_931__________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_31__Minimum_Falling_Path_Sum_931__________UITests.swift"; sourceTree = "<group>"; };
+		B23CB7A823209B2300E193D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B23CB78023209B2100E193D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23CB79423209B2300E193D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23CB79F23209B2300E193D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B23CB77A23209B2100E193D7 = {
+			isa = PBXGroup;
+			children = (
+				B23CB78523209B2100E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和) */,
+				B23CB79A23209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)Tests */,
+				B23CB7A523209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)UITests */,
+				B23CB78423209B2100E193D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B23CB78423209B2100E193D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23CB78323209B2100E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和).app */,
+				B23CB79723209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)Tests.xctest */,
+				B23CB7A223209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B23CB78523209B2100E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和) */ = {
+			isa = PBXGroup;
+			children = (
+				B23CB78623209B2100E193D7 /* AppDelegate.swift */,
+				B23CB78823209B2100E193D7 /* ViewController.swift */,
+				B23CB78A23209B2100E193D7 /* Main.storyboard */,
+				B23CB78D23209B2300E193D7 /* Assets.xcassets */,
+				B23CB78F23209B2300E193D7 /* LaunchScreen.storyboard */,
+				B23CB79223209B2300E193D7 /* Info.plist */,
+			);
+			path = "931. Minimum Falling Path Sum(931. 下降路径最小和)";
+			sourceTree = "<group>";
+		};
+		B23CB79A23209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B23CB79B23209B2300E193D7 /* _31__Minimum_Falling_Path_Sum_931__________Tests.swift */,
+				B23CB79D23209B2300E193D7 /* Info.plist */,
+			);
+			path = "931. Minimum Falling Path Sum(931. 下降路径最小和)Tests";
+			sourceTree = "<group>";
+		};
+		B23CB7A523209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B23CB7A623209B2300E193D7 /* _31__Minimum_Falling_Path_Sum_931__________UITests.swift */,
+				B23CB7A823209B2300E193D7 /* Info.plist */,
+			);
+			path = "931. Minimum Falling Path Sum(931. 下降路径最小和)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B23CB78223209B2100E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23CB7AB23209B2400E193D7 /* Build configuration list for PBXNativeTarget "931. Minimum Falling Path Sum(931. 下降路径最小和)" */;
+			buildPhases = (
+				B23CB77F23209B2100E193D7 /* Sources */,
+				B23CB78023209B2100E193D7 /* Frameworks */,
+				B23CB78123209B2100E193D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "931. Minimum Falling Path Sum(931. 下降路径最小和)";
+			productName = "931. Minimum Falling Path Sum(931. 下降路径最小和)";
+			productReference = B23CB78323209B2100E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和).app */;
+			productType = "com.apple.product-type.application";
+		};
+		B23CB79623209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23CB7AE23209B2400E193D7 /* Build configuration list for PBXNativeTarget "931. Minimum Falling Path Sum(931. 下降路径最小和)Tests" */;
+			buildPhases = (
+				B23CB79323209B2300E193D7 /* Sources */,
+				B23CB79423209B2300E193D7 /* Frameworks */,
+				B23CB79523209B2300E193D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23CB79923209B2300E193D7 /* PBXTargetDependency */,
+			);
+			name = "931. Minimum Falling Path Sum(931. 下降路径最小和)Tests";
+			productName = "931. Minimum Falling Path Sum(931. 下降路径最小和)Tests";
+			productReference = B23CB79723209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B23CB7A123209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23CB7B123209B2400E193D7 /* Build configuration list for PBXNativeTarget "931. Minimum Falling Path Sum(931. 下降路径最小和)UITests" */;
+			buildPhases = (
+				B23CB79E23209B2300E193D7 /* Sources */,
+				B23CB79F23209B2300E193D7 /* Frameworks */,
+				B23CB7A023209B2300E193D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23CB7A423209B2300E193D7 /* PBXTargetDependency */,
+			);
+			name = "931. Minimum Falling Path Sum(931. 下降路径最小和)UITests";
+			productName = "931. Minimum Falling Path Sum(931. 下降路径最小和)UITests";
+			productReference = B23CB7A223209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23CB77B23209B2100E193D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = yFeii;
+				TargetAttributes = {
+					B23CB78223209B2100E193D7 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B23CB79623209B2300E193D7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B23CB78223209B2100E193D7;
+					};
+					B23CB7A123209B2300E193D7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B23CB78223209B2100E193D7;
+					};
+				};
+			};
+			buildConfigurationList = B23CB77E23209B2100E193D7 /* Build configuration list for PBXProject "931. Minimum Falling Path Sum(931. 下降路径最小和)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B23CB77A23209B2100E193D7;
+			productRefGroup = B23CB78423209B2100E193D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23CB78223209B2100E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和) */,
+				B23CB79623209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)Tests */,
+				B23CB7A123209B2300E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B23CB78123209B2100E193D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23CB79123209B2300E193D7 /* LaunchScreen.storyboard in Resources */,
+				B23CB78E23209B2300E193D7 /* Assets.xcassets in Resources */,
+				B23CB78C23209B2100E193D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23CB79523209B2300E193D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23CB7A023209B2300E193D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B23CB77F23209B2100E193D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23CB78923209B2100E193D7 /* ViewController.swift in Sources */,
+				B23CB78723209B2100E193D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23CB79323209B2300E193D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23CB79C23209B2300E193D7 /* _31__Minimum_Falling_Path_Sum_931__________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23CB79E23209B2300E193D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23CB7A723209B2300E193D7 /* _31__Minimum_Falling_Path_Sum_931__________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B23CB79923209B2300E193D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B23CB78223209B2100E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和) */;
+			targetProxy = B23CB79823209B2300E193D7 /* PBXContainerItemProxy */;
+		};
+		B23CB7A423209B2300E193D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B23CB78223209B2100E193D7 /* 931. Minimum Falling Path Sum(931. 下降路径最小和) */;
+			targetProxy = B23CB7A323209B2300E193D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B23CB78A23209B2100E193D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23CB78B23209B2100E193D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B23CB78F23209B2300E193D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23CB79023209B2300E193D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B23CB7A923209B2400E193D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B23CB7AA23209B2400E193D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23CB7AC23209B2400E193D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "931. Minimum Falling Path Sum(931. 下降路径最小和)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-31--Minimum-Falling-Path-Sum-931----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B23CB7AD23209B2400E193D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "931. Minimum Falling Path Sum(931. 下降路径最小和)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-31--Minimum-Falling-Path-Sum-931----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B23CB7AF23209B2400E193D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "931. Minimum Falling Path Sum(931. 下降路径最小和)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-31--Minimum-Falling-Path-Sum-931----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/931. Minimum Falling Path Sum(931. 下降路径最小和).app/931. Minimum Falling Path Sum(931. 下降路径最小和)";
+			};
+			name = Debug;
+		};
+		B23CB7B023209B2400E193D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "931. Minimum Falling Path Sum(931. 下降路径最小和)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-31--Minimum-Falling-Path-Sum-931----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/931. Minimum Falling Path Sum(931. 下降路径最小和).app/931. Minimum Falling Path Sum(931. 下降路径最小和)";
+			};
+			name = Release;
+		};
+		B23CB7B223209B2400E193D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "931. Minimum Falling Path Sum(931. 下降路径最小和)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-31--Minimum-Falling-Path-Sum-931----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "931. Minimum Falling Path Sum(931. 下降路径最小和)";
+			};
+			name = Debug;
+		};
+		B23CB7B323209B2400E193D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "931. Minimum Falling Path Sum(931. 下降路径最小和)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-31--Minimum-Falling-Path-Sum-931----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "931. Minimum Falling Path Sum(931. 下降路径最小和)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23CB77E23209B2100E193D7 /* Build configuration list for PBXProject "931. Minimum Falling Path Sum(931. 下降路径最小和)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23CB7A923209B2400E193D7 /* Debug */,
+				B23CB7AA23209B2400E193D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23CB7AB23209B2400E193D7 /* Build configuration list for PBXNativeTarget "931. Minimum Falling Path Sum(931. 下降路径最小和)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23CB7AC23209B2400E193D7 /* Debug */,
+				B23CB7AD23209B2400E193D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23CB7AE23209B2400E193D7 /* Build configuration list for PBXNativeTarget "931. Minimum Falling Path Sum(931. 下降路径最小和)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23CB7AF23209B2400E193D7 /* Debug */,
+				B23CB7B023209B2400E193D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23CB7B123209B2400E193D7 /* Build configuration list for PBXNativeTarget "931. Minimum Falling Path Sum(931. 下降路径最小和)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23CB7B223209B2400E193D7 /* Debug */,
+				B23CB7B323209B2400E193D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B23CB77B23209B2100E193D7 /* Project object */;
+}

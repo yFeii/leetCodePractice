@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20B480E23027D0400E10C17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B480D23027D0400E10C17 /* AppDelegate.swift */; };
+		B20B481023027D0400E10C17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B480F23027D0400E10C17 /* ViewController.swift */; };
+		B20B481323027D0400E10C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20B481123027D0400E10C17 /* Main.storyboard */; };
+		B20B481523027D0500E10C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20B481423027D0500E10C17 /* Assets.xcassets */; };
+		B20B481823027D0500E10C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20B481623027D0500E10C17 /* LaunchScreen.storyboard */; };
+		B20B482323027D0500E10C17 /* _88__Best_Time_to_Buy_and_Sell_Stock_IVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B482223027D0500E10C17 /* _88__Best_Time_to_Buy_and_Sell_Stock_IVTests.swift */; };
+		B20B482E23027D0500E10C17 /* _88__Best_Time_to_Buy_and_Sell_Stock_IVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B482D23027D0500E10C17 /* _88__Best_Time_to_Buy_and_Sell_Stock_IVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20B481F23027D0500E10C17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20B480223027D0400E10C17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20B480923027D0400E10C17;
+			remoteInfo = "188. Best Time to Buy and Sell Stock IV";
+		};
+		B20B482A23027D0500E10C17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20B480223027D0400E10C17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20B480923027D0400E10C17;
+			remoteInfo = "188. Best Time to Buy and Sell Stock IV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20B480A23027D0400E10C17 /* 188. Best Time to Buy and Sell Stock IV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "188. Best Time to Buy and Sell Stock IV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20B480D23027D0400E10C17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B20B480F23027D0400E10C17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B20B481223027D0400E10C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B20B481423027D0500E10C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20B481723027D0500E10C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B20B481923027D0500E10C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20B481E23027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "188. Best Time to Buy and Sell Stock IVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20B482223027D0500E10C17 /* _88__Best_Time_to_Buy_and_Sell_Stock_IVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _88__Best_Time_to_Buy_and_Sell_Stock_IVTests.swift; sourceTree = "<group>"; };
+		B20B482423027D0500E10C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20B482923027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "188. Best Time to Buy and Sell Stock IVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20B482D23027D0500E10C17 /* _88__Best_Time_to_Buy_and_Sell_Stock_IVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _88__Best_Time_to_Buy_and_Sell_Stock_IVUITests.swift; sourceTree = "<group>"; };
+		B20B482F23027D0600E10C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20B480723027D0400E10C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20B481B23027D0500E10C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20B482623027D0500E10C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20B480123027D0400E10C17 = {
+			isa = PBXGroup;
+			children = (
+				B20B480C23027D0400E10C17 /* 188. Best Time to Buy and Sell Stock IV */,
+				B20B482123027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVTests */,
+				B20B482C23027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVUITests */,
+				B20B480B23027D0400E10C17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20B480B23027D0400E10C17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20B480A23027D0400E10C17 /* 188. Best Time to Buy and Sell Stock IV.app */,
+				B20B481E23027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVTests.xctest */,
+				B20B482923027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20B480C23027D0400E10C17 /* 188. Best Time to Buy and Sell Stock IV */ = {
+			isa = PBXGroup;
+			children = (
+				B20B480D23027D0400E10C17 /* AppDelegate.swift */,
+				B20B480F23027D0400E10C17 /* ViewController.swift */,
+				B20B481123027D0400E10C17 /* Main.storyboard */,
+				B20B481423027D0500E10C17 /* Assets.xcassets */,
+				B20B481623027D0500E10C17 /* LaunchScreen.storyboard */,
+				B20B481923027D0500E10C17 /* Info.plist */,
+			);
+			path = "188. Best Time to Buy and Sell Stock IV";
+			sourceTree = "<group>";
+		};
+		B20B482123027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20B482223027D0500E10C17 /* _88__Best_Time_to_Buy_and_Sell_Stock_IVTests.swift */,
+				B20B482423027D0500E10C17 /* Info.plist */,
+			);
+			path = "188. Best Time to Buy and Sell Stock IVTests";
+			sourceTree = "<group>";
+		};
+		B20B482C23027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B20B482D23027D0500E10C17 /* _88__Best_Time_to_Buy_and_Sell_Stock_IVUITests.swift */,
+				B20B482F23027D0600E10C17 /* Info.plist */,
+			);
+			path = "188. Best Time to Buy and Sell Stock IVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20B480923027D0400E10C17 /* 188. Best Time to Buy and Sell Stock IV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20B483223027D0600E10C17 /* Build configuration list for PBXNativeTarget "188. Best Time to Buy and Sell Stock IV" */;
+			buildPhases = (
+				B20B480623027D0400E10C17 /* Sources */,
+				B20B480723027D0400E10C17 /* Frameworks */,
+				B20B480823027D0400E10C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "188. Best Time to Buy and Sell Stock IV";
+			productName = "188. Best Time to Buy and Sell Stock IV";
+			productReference = B20B480A23027D0400E10C17 /* 188. Best Time to Buy and Sell Stock IV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20B481D23027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20B483523027D0600E10C17 /* Build configuration list for PBXNativeTarget "188. Best Time to Buy and Sell Stock IVTests" */;
+			buildPhases = (
+				B20B481A23027D0500E10C17 /* Sources */,
+				B20B481B23027D0500E10C17 /* Frameworks */,
+				B20B481C23027D0500E10C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20B482023027D0500E10C17 /* PBXTargetDependency */,
+			);
+			name = "188. Best Time to Buy and Sell Stock IVTests";
+			productName = "188. Best Time to Buy and Sell Stock IVTests";
+			productReference = B20B481E23027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B20B482823027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20B483823027D0600E10C17 /* Build configuration list for PBXNativeTarget "188. Best Time to Buy and Sell Stock IVUITests" */;
+			buildPhases = (
+				B20B482523027D0500E10C17 /* Sources */,
+				B20B482623027D0500E10C17 /* Frameworks */,
+				B20B482723027D0500E10C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20B482B23027D0500E10C17 /* PBXTargetDependency */,
+			);
+			name = "188. Best Time to Buy and Sell Stock IVUITests";
+			productName = "188. Best Time to Buy and Sell Stock IVUITests";
+			productReference = B20B482923027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20B480223027D0400E10C17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = yFeii;
+				TargetAttributes = {
+					B20B480923027D0400E10C17 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B20B481D23027D0500E10C17 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B20B480923027D0400E10C17;
+					};
+					B20B482823027D0500E10C17 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B20B480923027D0400E10C17;
+					};
+				};
+			};
+			buildConfigurationList = B20B480523027D0400E10C17 /* Build configuration list for PBXProject "188. Best Time to Buy and Sell Stock IV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20B480123027D0400E10C17;
+			productRefGroup = B20B480B23027D0400E10C17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20B480923027D0400E10C17 /* 188. Best Time to Buy and Sell Stock IV */,
+				B20B481D23027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVTests */,
+				B20B482823027D0500E10C17 /* 188. Best Time to Buy and Sell Stock IVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20B480823027D0400E10C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20B481823027D0500E10C17 /* LaunchScreen.storyboard in Resources */,
+				B20B481523027D0500E10C17 /* Assets.xcassets in Resources */,
+				B20B481323027D0400E10C17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20B481C23027D0500E10C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20B482723027D0500E10C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20B480623027D0400E10C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20B481023027D0400E10C17 /* ViewController.swift in Sources */,
+				B20B480E23027D0400E10C17 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20B481A23027D0500E10C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20B482323027D0500E10C17 /* _88__Best_Time_to_Buy_and_Sell_Stock_IVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20B482523027D0500E10C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20B482E23027D0500E10C17 /* _88__Best_Time_to_Buy_and_Sell_Stock_IVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20B482023027D0500E10C17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20B480923027D0400E10C17 /* 188. Best Time to Buy and Sell Stock IV */;
+			targetProxy = B20B481F23027D0500E10C17 /* PBXContainerItemProxy */;
+		};
+		B20B482B23027D0500E10C17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20B480923027D0400E10C17 /* 188. Best Time to Buy and Sell Stock IV */;
+			targetProxy = B20B482A23027D0500E10C17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B20B481123027D0400E10C17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20B481223027D0400E10C17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B20B481623027D0500E10C17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20B481723027D0500E10C17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B20B483023027D0600E10C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20B483123027D0600E10C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20B483323027D0600E10C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "188. Best Time to Buy and Sell Stock IV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-88--Best-Time-to-Buy-and-Sell-Stock-IV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20B483423027D0600E10C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "188. Best Time to Buy and Sell Stock IV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-88--Best-Time-to-Buy-and-Sell-Stock-IV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20B483623027D0600E10C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "188. Best Time to Buy and Sell Stock IVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-88--Best-Time-to-Buy-and-Sell-Stock-IVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/188. Best Time to Buy and Sell Stock IV.app/188. Best Time to Buy and Sell Stock IV";
+			};
+			name = Debug;
+		};
+		B20B483723027D0600E10C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "188. Best Time to Buy and Sell Stock IVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-88--Best-Time-to-Buy-and-Sell-Stock-IVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/188. Best Time to Buy and Sell Stock IV.app/188. Best Time to Buy and Sell Stock IV";
+			};
+			name = Release;
+		};
+		B20B483923027D0600E10C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "188. Best Time to Buy and Sell Stock IVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-88--Best-Time-to-Buy-and-Sell-Stock-IVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "188. Best Time to Buy and Sell Stock IV";
+			};
+			name = Debug;
+		};
+		B20B483A23027D0600E10C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "188. Best Time to Buy and Sell Stock IVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-88--Best-Time-to-Buy-and-Sell-Stock-IVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "188. Best Time to Buy and Sell Stock IV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20B480523027D0400E10C17 /* Build configuration list for PBXProject "188. Best Time to Buy and Sell Stock IV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20B483023027D0600E10C17 /* Debug */,
+				B20B483123027D0600E10C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20B483223027D0600E10C17 /* Build configuration list for PBXNativeTarget "188. Best Time to Buy and Sell Stock IV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20B483323027D0600E10C17 /* Debug */,
+				B20B483423027D0600E10C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20B483523027D0600E10C17 /* Build configuration list for PBXNativeTarget "188. Best Time to Buy and Sell Stock IVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20B483623027D0600E10C17 /* Debug */,
+				B20B483723027D0600E10C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20B483823027D0600E10C17 /* Build configuration list for PBXNativeTarget "188. Best Time to Buy and Sell Stock IVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20B483923027D0600E10C17 /* Debug */,
+				B20B483A23027D0600E10C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20B480223027D0400E10C17 /* Project object */;
+}

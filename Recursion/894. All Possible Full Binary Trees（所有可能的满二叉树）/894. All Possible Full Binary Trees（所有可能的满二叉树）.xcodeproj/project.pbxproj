@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2C916A223305F6E00E9E1EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C916A123305F6E00E9E1EE /* AppDelegate.swift */; };
+		B2C916A423305F6E00E9E1EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C916A323305F6E00E9E1EE /* ViewController.swift */; };
+		B2C916A723305F6E00E9E1EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C916A523305F6E00E9E1EE /* Main.storyboard */; };
+		B2C916A923305F7000E9E1EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C916A823305F7000E9E1EE /* Assets.xcassets */; };
+		B2C916AC23305F7000E9E1EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C916AA23305F7000E9E1EE /* LaunchScreen.storyboard */; };
+		B2C916B723305F7300E9E1EE /* _94__All_Possible_Full_Binary_Trees___________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C916B623305F7300E9E1EE /* _94__All_Possible_Full_Binary_Trees___________Tests.swift */; };
+		B2C916C223305F7300E9E1EE /* _94__All_Possible_Full_Binary_Trees___________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C916C123305F7300E9E1EE /* _94__All_Possible_Full_Binary_Trees___________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2C916B323305F7300E9E1EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9169623305F6E00E9E1EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C9169D23305F6E00E9E1EE;
+			remoteInfo = "894. All Possible Full Binary Trees（所有可能的满二叉树）";
+		};
+		B2C916BE23305F7300E9E1EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9169623305F6E00E9E1EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C9169D23305F6E00E9E1EE;
+			remoteInfo = "894. All Possible Full Binary Trees（所有可能的满二叉树）";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2C9169E23305F6E00E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "894. All Possible Full Binary Trees（所有可能的满二叉树）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C916A123305F6E00E9E1EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2C916A323305F6E00E9E1EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2C916A623305F6E00E9E1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2C916A823305F7000E9E1EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2C916AB23305F7000E9E1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2C916AD23305F7000E9E1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C916B223305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "894. All Possible Full Binary Trees（所有可能的满二叉树）Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C916B623305F7300E9E1EE /* _94__All_Possible_Full_Binary_Trees___________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_94__All_Possible_Full_Binary_Trees___________Tests.swift"; sourceTree = "<group>"; };
+		B2C916B823305F7300E9E1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C916BD23305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "894. All Possible Full Binary Trees（所有可能的满二叉树）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C916C123305F7300E9E1EE /* _94__All_Possible_Full_Binary_Trees___________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_94__All_Possible_Full_Binary_Trees___________UITests.swift"; sourceTree = "<group>"; };
+		B2C916C323305F7300E9E1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2C9169B23305F6E00E9E1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C916AF23305F7300E9E1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C916BA23305F7300E9E1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2C9169523305F6E00E9E1EE = {
+			isa = PBXGroup;
+			children = (
+				B2C916A023305F6E00E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树） */,
+				B2C916B523305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）Tests */,
+				B2C916C023305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）UITests */,
+				B2C9169F23305F6E00E9E1EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2C9169F23305F6E00E9E1EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2C9169E23305F6E00E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）.app */,
+				B2C916B223305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）Tests.xctest */,
+				B2C916BD23305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C916A023305F6E00E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树） */ = {
+			isa = PBXGroup;
+			children = (
+				B2C916A123305F6E00E9E1EE /* AppDelegate.swift */,
+				B2C916A323305F6E00E9E1EE /* ViewController.swift */,
+				B2C916A523305F6E00E9E1EE /* Main.storyboard */,
+				B2C916A823305F7000E9E1EE /* Assets.xcassets */,
+				B2C916AA23305F7000E9E1EE /* LaunchScreen.storyboard */,
+				B2C916AD23305F7000E9E1EE /* Info.plist */,
+			);
+			path = "894. All Possible Full Binary Trees（所有可能的满二叉树）";
+			sourceTree = "<group>";
+		};
+		B2C916B523305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B2C916B623305F7300E9E1EE /* _94__All_Possible_Full_Binary_Trees___________Tests.swift */,
+				B2C916B823305F7300E9E1EE /* Info.plist */,
+			);
+			path = "894. All Possible Full Binary Trees（所有可能的满二叉树）Tests";
+			sourceTree = "<group>";
+		};
+		B2C916C023305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2C916C123305F7300E9E1EE /* _94__All_Possible_Full_Binary_Trees___________UITests.swift */,
+				B2C916C323305F7300E9E1EE /* Info.plist */,
+			);
+			path = "894. All Possible Full Binary Trees（所有可能的满二叉树）UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2C9169D23305F6E00E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C916C623305F7300E9E1EE /* Build configuration list for PBXNativeTarget "894. All Possible Full Binary Trees（所有可能的满二叉树）" */;
+			buildPhases = (
+				B2C9169A23305F6E00E9E1EE /* Sources */,
+				B2C9169B23305F6E00E9E1EE /* Frameworks */,
+				B2C9169C23305F6E00E9E1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "894. All Possible Full Binary Trees（所有可能的满二叉树）";
+			productName = "894. All Possible Full Binary Trees（所有可能的满二叉树）";
+			productReference = B2C9169E23305F6E00E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2C916B123305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C916C923305F7300E9E1EE /* Build configuration list for PBXNativeTarget "894. All Possible Full Binary Trees（所有可能的满二叉树）Tests" */;
+			buildPhases = (
+				B2C916AE23305F7300E9E1EE /* Sources */,
+				B2C916AF23305F7300E9E1EE /* Frameworks */,
+				B2C916B023305F7300E9E1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C916B423305F7300E9E1EE /* PBXTargetDependency */,
+			);
+			name = "894. All Possible Full Binary Trees（所有可能的满二叉树）Tests";
+			productName = "894. All Possible Full Binary Trees（所有可能的满二叉树）Tests";
+			productReference = B2C916B223305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2C916BC23305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C916CC23305F7300E9E1EE /* Build configuration list for PBXNativeTarget "894. All Possible Full Binary Trees（所有可能的满二叉树）UITests" */;
+			buildPhases = (
+				B2C916B923305F7300E9E1EE /* Sources */,
+				B2C916BA23305F7300E9E1EE /* Frameworks */,
+				B2C916BB23305F7300E9E1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C916BF23305F7300E9E1EE /* PBXTargetDependency */,
+			);
+			name = "894. All Possible Full Binary Trees（所有可能的满二叉树）UITests";
+			productName = "894. All Possible Full Binary Trees（所有可能的满二叉树）UITests";
+			productReference = B2C916BD23305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2C9169623305F6E00E9E1EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = yFeii;
+				TargetAttributes = {
+					B2C9169D23305F6E00E9E1EE = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B2C916B123305F7300E9E1EE = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B2C9169D23305F6E00E9E1EE;
+					};
+					B2C916BC23305F7300E9E1EE = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B2C9169D23305F6E00E9E1EE;
+					};
+				};
+			};
+			buildConfigurationList = B2C9169923305F6E00E9E1EE /* Build configuration list for PBXProject "894. All Possible Full Binary Trees（所有可能的满二叉树）" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2C9169523305F6E00E9E1EE;
+			productRefGroup = B2C9169F23305F6E00E9E1EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2C9169D23305F6E00E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树） */,
+				B2C916B123305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）Tests */,
+				B2C916BC23305F7300E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树）UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2C9169C23305F6E00E9E1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C916AC23305F7000E9E1EE /* LaunchScreen.storyboard in Resources */,
+				B2C916A923305F7000E9E1EE /* Assets.xcassets in Resources */,
+				B2C916A723305F6E00E9E1EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C916B023305F7300E9E1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C916BB23305F7300E9E1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2C9169A23305F6E00E9E1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C916A423305F6E00E9E1EE /* ViewController.swift in Sources */,
+				B2C916A223305F6E00E9E1EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C916AE23305F7300E9E1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C916B723305F7300E9E1EE /* _94__All_Possible_Full_Binary_Trees___________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C916B923305F7300E9E1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C916C223305F7300E9E1EE /* _94__All_Possible_Full_Binary_Trees___________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2C916B423305F7300E9E1EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2C9169D23305F6E00E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树） */;
+			targetProxy = B2C916B323305F7300E9E1EE /* PBXContainerItemProxy */;
+		};
+		B2C916BF23305F7300E9E1EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2C9169D23305F6E00E9E1EE /* 894. All Possible Full Binary Trees（所有可能的满二叉树） */;
+			targetProxy = B2C916BE23305F7300E9E1EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2C916A523305F6E00E9E1EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C916A623305F6E00E9E1EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2C916AA23305F7000E9E1EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C916AB23305F7000E9E1EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2C916C423305F7300E9E1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2C916C523305F7300E9E1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2C916C723305F7300E9E1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "894. All Possible Full Binary Trees（所有可能的满二叉树）/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-94--All-Possible-Full-Binary-Trees-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C916C823305F7300E9E1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "894. All Possible Full Binary Trees（所有可能的满二叉树）/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-94--All-Possible-Full-Binary-Trees-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2C916CA23305F7300E9E1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "894. All Possible Full Binary Trees（所有可能的满二叉树）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-94--All-Possible-Full-Binary-Trees-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/894. All Possible Full Binary Trees（所有可能的满二叉树）.app/894. All Possible Full Binary Trees（所有可能的满二叉树）";
+			};
+			name = Debug;
+		};
+		B2C916CB23305F7300E9E1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "894. All Possible Full Binary Trees（所有可能的满二叉树）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-94--All-Possible-Full-Binary-Trees-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/894. All Possible Full Binary Trees（所有可能的满二叉树）.app/894. All Possible Full Binary Trees（所有可能的满二叉树）";
+			};
+			name = Release;
+		};
+		B2C916CD23305F7300E9E1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "894. All Possible Full Binary Trees（所有可能的满二叉树）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-94--All-Possible-Full-Binary-Trees-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "894. All Possible Full Binary Trees（所有可能的满二叉树）";
+			};
+			name = Debug;
+		};
+		B2C916CE23305F7300E9E1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "894. All Possible Full Binary Trees（所有可能的满二叉树）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.-94--All-Possible-Full-Binary-Trees-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "894. All Possible Full Binary Trees（所有可能的满二叉树）";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2C9169923305F6E00E9E1EE /* Build configuration list for PBXProject "894. All Possible Full Binary Trees（所有可能的满二叉树）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C916C423305F7300E9E1EE /* Debug */,
+				B2C916C523305F7300E9E1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C916C623305F7300E9E1EE /* Build configuration list for PBXNativeTarget "894. All Possible Full Binary Trees（所有可能的满二叉树）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C916C723305F7300E9E1EE /* Debug */,
+				B2C916C823305F7300E9E1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C916C923305F7300E9E1EE /* Build configuration list for PBXNativeTarget "894. All Possible Full Binary Trees（所有可能的满二叉树）Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C916CA23305F7300E9E1EE /* Debug */,
+				B2C916CB23305F7300E9E1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C916CC23305F7300E9E1EE /* Build configuration list for PBXNativeTarget "894. All Possible Full Binary Trees（所有可能的满二叉树）UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C916CD23305F7300E9E1EE /* Debug */,
+				B2C916CE23305F7300E9E1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2C9169623305F6E00E9E1EE /* Project object */;
+}
